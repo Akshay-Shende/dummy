@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styles from "../Components/css/login.module.css";
-import { loginUser } from "./Services/loginServices";
+import { loginUser } from "../Services/loginServices";
 import { useNavigate } from "react-router-dom";
 const LogIn = () => {
   const userId = useRef();

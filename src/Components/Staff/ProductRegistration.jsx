@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../css/productRegistration.module.css";
-import { getAllManufacturer } from "../Services/manufacturerServices";
-import { addNewProduct } from "../Services/productServices";
+import { getAllManufacturer } from "../../Services/manufacturerServices";
+import { addNewProduct } from "../../Services/productServices";
 import { SubCategories } from "../../Enumerations/SubCategories";
 import { Currency } from "../../Enumerations/Currency";
 

@@ -1,18 +1,18 @@
 
 import './App.css'
-import Navbar from "./Components/Navbar";
-import Footer from './Components/Footer';
+import Navbar from "./Components/HomepageComponents/Navbar";
+import Footer from './Components/HomepageComponents/Footer';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Suspense, lazy } from 'react';
 
 function App() {
-const Men =  lazy(() => import("./Components/Men"));
-const Women = lazy(() => import("./Components/Women"));
-const Kids = lazy(() => import("./Components/Kids"));
-const Beauty = lazy(()=> import("./Components/Beauty"));
+const Men =  lazy(() => import("./Components/HomepageComponents/Men"));
+const Women = lazy(() => import("./Components/HomepageComponents/Women"));
+const Kids = lazy(() => import("./Components/HomepageComponents/Kids"));
+const Beauty = lazy(()=> import("./Components/HomepageComponents/Beauty"));
 const SignUp = lazy(()=> import("./Components/SignUp"));
 const LogIn = lazy(()=> import("./Components/LogIn"));
-const Home = lazy(() => import("./Components/Home"))
+const Home = lazy(() => import("./Components/HomepageComponents/Home"))
 const ProductRegistration = lazy(()=> import("./Components/Staff/ProductRegistration"))
 const ManufacturerRegistration = lazy(()=> import("./Components/Staff/ManufacturerRegistration"))
 

@@ -1,7 +1,7 @@
 import styles from "../Components/css/signup.module.css";
 import { useRef, useEffect, useState } from "react";
-import { getAllRoles } from "./Services/useRoleServices";
-import { createUser } from "./Services/userServices";
+import { getAllRoles } from "../Services/useRoleServices";
+import { createUser } from "../Services/userServices";
 
 const SignUp = () => {
   const [roleList, setRoleList] = useState([]);
